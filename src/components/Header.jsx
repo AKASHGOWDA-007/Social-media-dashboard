@@ -2,9 +2,11 @@ import React,{ useState } from 'react';
 
 function Header() {
   const [toggle, setToggle] = useState(true);
+
+  console.log(window.matchMedia("(prefers-color-scheme: dark)").matches);
   
   const setColorMode = () => {
-    localStorage.getItem('theme') === "dark" ? setLightMode() : setDarkMode();
+    localStorage.getItem('theme') === "dark" ? setDarkMode() : setLightMode();
   }
 
   const setDarkMode = () => {
@@ -36,6 +38,7 @@ function Header() {
   window.onload = (event) => {
     localStorage.getItem("theme");
     console.log(localStorage.getItem("theme"));
+    setColorMode();
   }
 
   return (

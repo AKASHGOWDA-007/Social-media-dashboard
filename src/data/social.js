@@ -1,8 +1,10 @@
+import { images } from "../images";
+
 const socials = [
   {
     id: 1,
     platform: "facebook",
-    image: "../src/images/icon-facebook.svg",
+    image: images.icon_facebook,
     username: "@nathanf",
     count: 1987,
     number: 12,
@@ -11,7 +13,7 @@ const socials = [
   {
     id: 2,
     platform: "twitter",
-    image: "../src/images/icon-twitter.svg",
+    image: images.icon_twitter,
     username: "@nathanf",
     count: 1044,
     number: 99,
@@ -20,7 +22,7 @@ const socials = [
   {
     id: 3,
     platform: "instagram",
-    image: "../src/images/icon-instagram.svg",
+    image: images.icon_instagram,
     username: "@realnathanf",
     count: 11000,
     number: 1099,
@@ -29,7 +31,7 @@ const socials = [
   {
     id: 4,
     platform: "youtube",
-    image: "../src/images/icon-youtube.svg",
+    image: images.icon_youtube,
     username: "Nathan F.",
     count: 8239,
     number: 144,

@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../data/overview";
 import CountUp from 'react-countup';
+import { images } from "../images";
 
 const Overview = () => {
   return (
@@ -24,8 +25,8 @@ const Overview = () => {
                   <img
                     src={
                       rising
-                        ? "../src/images/icon-up.svg"
-                        : "../src/images/icon-down.svg"
+                        ? images.icon_up
+                        : images.icon_down
                     }
                     alt="rise-up-down"
                   />

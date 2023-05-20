@@ -1,6 +1,7 @@
 import React from "react";
 import socials from "../data/social";
 import CountUp from 'react-countup';
+import { images } from "../images";
 
 function Followers() {
   return (
@@ -18,7 +19,7 @@ function Followers() {
               <div className="card__label"> Followers</div>
             </div>
             <p className={`${rising ? "card__change--up" : "card__change--down"}`}>
-              <img src={rising ? "../src/images/icon-up.svg" : "../src/images/icon-down.svg"} alt="" />
+              <img src={rising ? images.icon_up : images.icon_down} alt="count" />
                {number} Today</p>
           </div>
         );
