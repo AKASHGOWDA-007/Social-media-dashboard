@@ -1,0 +1,31 @@
+.overview {
+  background-color: var(--dark-card);
+  color: var(--dark-text1);
+  padding: rem(25);
+  border-radius: rem(5);
+  cursor: pointer;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: space-between;
+  // gap: 1.4375rem;
+
+  .card__subtitle {
+    align-self: start;
+  }
+  .card__platform {
+    justify-self: end;
+    align-self: flex-start;
+  }
+  .card__count {
+    align-self: start;
+  }
+
+}
+
+.overview__title {
+  margin-bottom: 2rem;
+}

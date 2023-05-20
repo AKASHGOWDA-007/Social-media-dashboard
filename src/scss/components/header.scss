@@ -1,0 +1,41 @@
+@use "../util" as *;
+
+.header {
+    
+    margin-top: rem(36);
+    @include breakpoint-up(medium) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    @include breakpoint-down(small) {
+        &__title {
+            padding-bottom: rem(20);
+            border-bottom: 1px solid var(--light-text1);
+            margin-bottom: rem(20);
+        }
+    }
+
+    &__wrapper {
+        position: absolute;
+        background-color: var(--top-bg);
+        height: 250px;
+        width: 100%;
+        top: -50px;
+        left: 0;
+        z-index: -1;
+        border-radius: 0 0 rem(25) rem(25);
+    }
+
+    &__subtitle {
+        font-size: rem(14);
+        font-weight: 700;
+        color: var(--text-color2);
+    }
+
+    &__toggle {
+        margin: 0;
+        padding: 0;
+    }
+}
