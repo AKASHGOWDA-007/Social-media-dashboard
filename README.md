@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Source Code↗](https://github.com/AKASHGOWDA-007/Social-media-dashboard)
+- Live Site URL: [Preview↗](https://fem-social-media-dashboard-7.netlify.app/)
 
 ## My process
 
